@@ -65,7 +65,7 @@ return packer.startup(function(use)
 	use("windwp/nvim-autopairs") -- Autopairs, integrates with both cmp and treesitter
 	use("numToStr/Comment.nvim") -- Easily comment stuff
 	use("Shatur/neovim-session-manager")
-	use("ur4ltz/surround.nvim")
+  use("tpope/vim-surround")
 
 	-- LSP
 	use("neovim/nvim-lspconfig") -- enable LSP
