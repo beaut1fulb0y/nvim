@@ -5,7 +5,7 @@ if not status_ok then
 end
 
 configs.setup {
-  ensure_installed = { "cpp", "c", "python", "markdown", "json", "yaml", "html", "css", "vim", "java", "javascript", "lua", "bash", "latex", "bibtex" }, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  ensure_installed = { "cpp", "c", "python", "markdown", "json", "yaml", "lua", "bash", }, -- one of "all", "maintained" (parsers with maintainers), or a list of languages
   sync_install = false, -- install languages synchronously (only applied to `ensure_installed`)
   ignore_install = { "" }, -- List of parsers to ignore installing
   highlight = {

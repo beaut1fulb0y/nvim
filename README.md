@@ -105,15 +105,21 @@ A `Neovim` configuration project written in `lua`, which is much faster than `vi
 
 #### Requirements
 
+>   -   black
 >   -   cargo
 >   -   cmake
+>   -   curl
+>   -   fd
+>   -   flake8
 >   -   fzf
->   -   gcc, g++
+>   -   gcc
 >   -   git
->   -   java
+>   -   javac, java
 >   -   nerdfont (Whole family)
+>   -   neovim version>= 0.7
 >   -   node, npm
 >   -   python (recommend: Anaconda base)
+>   -   ripgrep
 >   -   stylua
 
 There may be other software that needs to be pre-installed, just refer to the error message and install it.
