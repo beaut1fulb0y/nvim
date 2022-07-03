@@ -6,7 +6,7 @@
 
 ### introduction
 
-A `neovim` configuration project written in `lua`, which is much faster than `vimscripts`. Here are the plugins it contains:
+A `Neovim` configuration project written in `lua`, which is much faster than `vimscripts`. Here are the plugins it contains:
 
 ```lua
 	-- My plugins here
@@ -120,11 +120,11 @@ There may be other software that needs to be pre-installed, just refer to the er
 
 #### Download
 
-Run this to install nvim folder and contains.
+Run this to install `nvim` folder and contents.
 
-```bash
+```:wbash
 cd ~/.config
 git clone https://github.com/beaut1fulb0y/nvim.git
 ```
 
-Run PackerSync in Neovim after cloning.
+Run `PackerSync` in `Neovim` after cloning.
