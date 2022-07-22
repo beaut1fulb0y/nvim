@@ -1,9 +1,5 @@
 # neovim-lua-settings
 
-## Contents
-
--   []()
-
 ### introduction
 
 A `Neovim` configuration project written in `lua`, which is much faster than `vimscripts`. Here are the plugins it contains:
@@ -121,6 +117,7 @@ A `Neovim` configuration project written in `lua`, which is much faster than `vi
 >   -   python (recommend: Anaconda base)
 >   -   ripgrep
 >   -   stylua
+>   -   remark
 
 There may be other software that needs to be pre-installed, just refer to the error message and install it.
 
