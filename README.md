@@ -115,9 +115,9 @@ A `Neovim` configuration project written in `lua`, which is much faster than `vi
 >   -   neovim version>= 0.7
 >   -   node, npm
 >   -   python (recommend: Anaconda base)
+>   -   remark
 >   -   ripgrep
 >   -   stylua
->   -   remark
 
 There may be other software that needs to be pre-installed, just refer to the error message and install it.
 
