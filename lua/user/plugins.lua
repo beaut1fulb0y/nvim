@@ -50,6 +50,7 @@ return packer.startup(function(use)
 	use("lewis6991/impatient.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
 	use("folke/which-key.nvim")
+  use("junegunn/fzf")
 
 	-- Colorschemes
 	use("lunarvim/colorschemes") -- A bunch of colorschemes you can try out

@@ -15,6 +15,7 @@ A `Neovim` configuration project written in `lua`, which is much faster than `vi
 	use("lewis6991/impatient.nvim")
 	use("lukas-reineke/indent-blankline.nvim")
 	use("folke/which-key.nvim")
+  use("junegunn/fzf")
 
 	-- Colorschemes
 	use("lunarvim/colorschemes") -- A bunch of colorschemes you can try out
@@ -130,4 +131,5 @@ cd ~/.config
 git clone https://github.com/beaut1fulb0y/nvim.git
 ```
 
-Run `PackerSync` in `Neovim` after cloning.
+> Run `PackerSync` in `Neovim` after cloning.
+You have to run TSInstall markdown markdown_inline due to the last push of TreeSitter Supports.
