@@ -239,7 +239,6 @@ local no_leader_opts = {
 }
 
 local no_leader_mappings = {
-	["gcc"] = { "<CMD>lua require('Comment.api').toggle_current_linewise()<CR>", "Comment Line" },
   ["]"] = {
     name = "Treesitter move",
     ["]"] = { "<cmd>lua require'nvim-treesitter.textobjects.move'.goto_next_start('@function.outer')<CR>", "goto next start" },
